@@ -10,42 +10,42 @@ body {
     
     margin: 0.5em;
     padding: 0em;
+    max-width: 100%;
 }
 
 h1 {
     font-size: 44px;
-    line-height: 2.875em;
+    line-height: 1em;
     letter-spacing: -0.03em;
 }
 
 h2 {
     font-size: 22px;
-    line-height: 1.5em;
-    font-weight: 80;
+    line-height: 1.15em;
+    font-weight: 100;
     letter-spacing: -0.03em;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1em;
-    font-weight: 20;
+    font-weight: 100;
     letter-spacing: -0.02em;
-}
-
-span {
-    font-style: italic;
 }
 
 .nav-container {
     background-color: white;
     font-size: 22px;
     line-height: 1.5em;
-    font-weight: 80;
+    font-weight: 100;
     letter-spacing: -0.03em;
     list-style: none;
 
     padding: 0em;
     margin-top: 0em;
+    margin-bottom: 0em;
+    max-width: 100%;
+    height: 46px;
 
     display: grid;
     grid-template-columns: repeat(14, 1fr);
@@ -90,4 +90,63 @@ span {
 .main-homepage-text-container {
     grid-column: span 5;
 }
+
+.main-homepage-projects-container {
+    grid-column: 1/12;
+
+    margin-bottom: 60px;
+}
+
+.main-homepage-project-item {
+    background-color: black;
+    height: 720px;
+
+    padding: 0em;
+    margin-top: 1em;
+}
+
+.text-item1 {
+    color: white;
+    text-align: center;
+
+    margin: 0em;
+
+    position: relative;
+    top: 680px;
+}
+
+.text-item2 {
+    color: white;
+    text-align: right;
+
+    margin: 0em;
+
+    position: relative;
+    top: 655px;
+    right: 20px;
+}
+
+.main-homepage-project-description {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    column-gap: 12px;
+}
+
+.project-description1 {
+    grid-column: span 2;
+}
+
+.project-description2 {
+    grid-column: 4/5;
+}
+
+.project-description3 {
+    grid-column: 7/12;
+}
+
+
+
+
+
+
 
