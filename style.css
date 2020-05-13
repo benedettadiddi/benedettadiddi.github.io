@@ -8,7 +8,7 @@ body {
     color: black;
     vertical-align: baseline;
     
-    margin: 0.5em;
+    margin: 0.75em;
     padding: 0em;
     max-width: 100%;
 }
@@ -16,21 +16,25 @@ body {
 h1 {
     font-size: 44px;
     line-height: 1em;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.025em;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.15em;
     font-weight: 100;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
 }
 
 h3 {
     font-size: 16px;
-    line-height: 1em;
+    line-height: 1.2em;
     font-weight: 100;
     letter-spacing: -0.02em;
+}
+
+span {
+    font-style: oblique;
 }
 
 .nav-container {
@@ -42,10 +46,9 @@ h3 {
     list-style: none;
 
     padding: 0em;
-    margin-top: 0em;
+    margin: 0em;
     margin-bottom: 0em;
     max-width: 100%;
-    height: 46px;
 
     display: grid;
     grid-template-columns: repeat(14, 1fr);
@@ -92,7 +95,7 @@ h3 {
 }
 
 .main-homepage-projects-container {
-    grid-column: 1/12;
+    grid-column: 1 / 12;
 
     margin-bottom: 60px;
 }
@@ -143,6 +146,25 @@ h3 {
 .project-description3 {
     grid-column: 7/12;
 }
+
+.main-homepage-posters-container {
+    position: fixed;
+    top: 45px;
+    right: 0.75em;
+}
+
+.main-homepage-books-container {
+    position: fixed;
+    top: 560px;
+    right: 0.75em;
+}
+
+.graphic-title {
+    margin-top: 12px;
+}
+
+
+
 
 
 
