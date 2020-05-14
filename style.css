@@ -14,8 +14,9 @@ body {
 
 h1 {
     font-size: 44px;
-    line-height: 1em;
-    letter-spacing: -0.025em;
+    line-height: 1.15em;
+    font-weight: 100;
+    letter-spacing: -0.02em;
 
     margin: 0;
     padding: 0;
@@ -45,6 +46,7 @@ span {
     font-style: oblique;
 }
 
+/* HOMEPAGE */
 /* wrapper */
 
 .wrapper {
@@ -150,7 +152,6 @@ span {
 
 }
 
-
 .main-homepage-project-description {
     margin-top: 24px;
     margin-bottom: 108px;
@@ -187,6 +188,36 @@ top: 38px;
 
 .graphic-title {
     margin-bottom: 24px;
+}
+
+/* INFO */
+
+.about {
+    margin-top: 24px;
+}
+
+.info {
+    margin-top: 48px;
+}
+
+.cv {
+    margin-top: 48px;
+}
+
+.link :link {
+    color: black;
+    text-decoration: none;
+}
+
+.link :hover {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.link :visited {
+    color: black;
+    text-decoration: none;
 }
 
 
