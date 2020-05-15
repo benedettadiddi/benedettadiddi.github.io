@@ -130,7 +130,7 @@ span {
 
 .main-homepage-project-item {
     background-color: black;
-    height: 720px;
+    height: 780px;
 }
 
 .text-item1 {
@@ -138,7 +138,7 @@ span {
     text-align: center;
 
     position: relative;
-    top: 686px;
+    top: 746px;
 }
 
 .text-item2 {
@@ -148,8 +148,14 @@ span {
     margin-right: 12px;
 
     position: relative;
-    top: 660px;
+    top: 722px;
 
+}
+
+.slider {
+    position: relative;
+    left: 137px;
+    top: 18px;
 }
 
 .main-homepage-project-description {
@@ -181,10 +187,15 @@ span {
 }
 
 /*
-position: fixed;
-right: 12px;
-top: 38px;
+
+#aside-container {
+    position: fixed;
+    right: 12px;
+    top: 46px;
+}
+
 */
+
 
 .graphic-title {
     margin-bottom: 24px;
