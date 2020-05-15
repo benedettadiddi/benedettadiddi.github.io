@@ -164,6 +164,11 @@ span {
     top: 18px;
 }
 
+.slider3 {
+    position: relative;
+    top: -40px;
+}
+
 .main-homepage-project-description {
     margin-top: 24px;
     margin-bottom: 108px;
