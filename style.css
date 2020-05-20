@@ -219,6 +219,22 @@ video {
     text-decoration: none;
 }
 
+.cv :link {
+    color: black;
+    text-decoration: none;
+}
+
+.cv :hover {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.cv :visited {
+    color: black;
+    text-decoration: none;
+}
+
 /* Works */
 /* Magis */
 
