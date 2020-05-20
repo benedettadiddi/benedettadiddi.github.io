@@ -219,6 +219,69 @@ video {
     text-decoration: none;
 }
 
+/* Works */
+/* Magis */
+
+.main-project {
+    margin-top: 24px;
+}
+
+.project-container {
+    background-color: black;
+    width: 78%;
+}
+
+.project-image {
+    width: 78%;
+    height: auto;
+
+    margin: 0em;
+    padding: 0em;
+}
+
+.title {
+    display: inline-block;
+
+    position: fixed;
+    margin-right: 0em;
+    margin-left: 78%;
+}
+
+.sub-title {
+    display: inline-block;
+
+    position: fixed;
+    margin-right: 0em;
+    margin-left: 78%;
+    margin-top: 48px;
+}
+
+.h3-description {
+    display: inline-block;
+
+    position: fixed;
+    margin-right: 12px;
+    margin-left: 78%;
+    margin-top: 96px;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
+.top {
+    margin-top: 240px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
