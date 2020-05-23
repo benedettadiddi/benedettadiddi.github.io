@@ -129,7 +129,7 @@ video {
 .project-item {
     grid-column: 1 / 12;
 
-    width: 127.7%;
+    width: 100%;
     height: auto;
 }
 
@@ -290,25 +290,65 @@ video {
 }
 
 
+/* Slider JS */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
 
+.swiper-container {
+    grid-column: 1 / 15;
+    position: relative;
+}
 
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 22px !important;
+    width: 8% !important;
+    height: 100% !important;
+    cursor: url('https://image.shutterstock.com/image-vector/share-icon-arrow-white-shadow-260nw-1098423941.jpg'), auto;
+}
 
+.swiper-button-next {
+    right: 0 !important;
+}
 
+.swiper-button-prev {
+    left: 0 !important;
+}
 
+.swiper-button-next:hover {
+    right: 0 !important;
+    cursor: url('https://image.shutterstock.com/image-vector/share-icon-arrow-white-shadow-260nw-1098423941.jpg'), auto;
+}
 
+.swiper-button-prev:hover {
+    cursor: url('images/arrow-prev.svg'), pointer;
+}
 
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.swiper-button-next img, .swiper-button-prev img {
+    width: 100%;
+    height: auto;
+}

@@ -7,6 +7,7 @@
     <meta name="author" content="Benedetta Diddi">
     <meta name="keywords" content="portfolio digital graphic visual web design web mobile desktop works marketing development codes">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.min.css">
     <title>Benedetta Diddi</title>
 </head>
 
@@ -34,10 +35,20 @@
 
             <section>
                 <div class="main-homepage-project-item">
-                    <img class="project-item" src="/images/magis/1_magis.png" alt="landingpage web design project">
-                     <!--img class="project-item" src="/images/magis/2_magis.png" alt="customize web design project">
-                    <img class="project-item" src="/images/magis/3_magis.png" alt="customize web design project">
-                    <video class="project-item" loop autoplay muted src="/images/magis/4_magis.mp4"></video-->
+                      <!-- Swiper -->
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/magis/benedettadiddi_magis_1.png" alt="landingpage web design project"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
                 </div>
 
                 <div class="main-homepage-project-description">
@@ -57,9 +68,20 @@
 
             <section>
                 <div class="main-homepage-project-item">
-                    <img class="project-item" src="/images/berlinerphilarm/1_berliner.png" alt="landing page homepage web design project">
+                      <!-- Swiper -->
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
                 </div>
-
                 <div class="main-homepage-project-description">
                     <h3 class="project-description1">Berliner Philharmoniker</h3>
                     <h3 class="project-description2">Web Design<br>Visual Identity</h3>
@@ -72,10 +94,23 @@
 
             <!--Project 3-->
 
-            <section>
+            <section>                
                 <div class="main-homepage-project-item">
-                    <video class="project-item" loop autoplay muted src="/images/abcxyz/1.abcxyz.mp4"></video>
+                      <!-- Swiper -->
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><video class="project-item" loop autoplay muted src="/images/abcxyz/1.abcxyz.mp4"></video></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                          <div class="swiper-slide"><img class="project-item" src="/images/berlinerphilarm/benedettadiddi_berliner_1.png" alt="landing page homepage web design project"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
                 </div>
+                
 
                 <div class="main-homepage-project-description">
                     <h3 class="project-description1">ABCXYZ</h3>
@@ -92,7 +127,7 @@
 
         <aside id="aside-container">
             <section>
-                <img class=project-item-aside src="/images/posters/poster_sean_scully.png" alt="poster graphic visual design portfolio">
+                <img class=project-item-aside src="/images/posters/benedettadiddi_poster_1.png" alt="poster graphic visual design portfolio">
                 <h2 class="graphic-title">Posters(2020) / SPD</h2>
             </section>
 
@@ -104,25 +139,23 @@
         
     </div>
 
-    <h3 class="top"><a href="/index.html">Back to the top</h3> 
+    <h3 class="top"><a href="/index.html">Back to the top</a></h3> 
 
+        
+      <!-- Swiper JS -->
+      <script src="js/swiper.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+        
+        
+        
 </body>
 </html>
-
-                
-
-
-
-    
-
-
-
-
-        
-
-
-
-
-
-
-        
