@@ -414,11 +414,11 @@ a:visited {
 
 .swiper-button-next:hover {
     right: 0 !important;
-    cursor: url('https://image.shutterstock.com/image-vector/share-icon-arrow-white-shadow-260nw-1098423941.jpg'), auto;
+    cursor: url('/images/arrow_next_1.png'), auto;
 }
 
 .swiper-button-prev:hover {
-    cursor: url('images/arrow-prev.svg'), pointer;
+    cursor: url('images/arrow_preview_1.png'), pointer;
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
