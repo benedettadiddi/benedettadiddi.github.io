@@ -73,7 +73,7 @@ p {
 }
 
 .next {
-    grid-column: 11 / 13;
+    grid-column: 13 / 15;
     text-align: right;
     grid-row: 1 / 2;
 }
