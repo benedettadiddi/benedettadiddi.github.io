@@ -342,8 +342,10 @@ a:visited {
 
 .cashlab-project-label {
     width: 100%;
-    height: 90%;
+    height: auto;
     grid-column: 4 / 15;
+
+    margin-bottom: 48px;
 }
 
 .magis-project-customize {
