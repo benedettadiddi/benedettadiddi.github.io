@@ -399,7 +399,7 @@ a:visited {
 .swiper-button-next, .swiper-button-prev {
     position: absolute;
     top: 22px !important;
-    width: 8% !important;
+    width: 50% !important;
     height: 100% !important;
     cursor: url('https://image.shutterstock.com/image-vector/share-icon-arrow-white-shadow-260nw-1098423941.jpg'), auto;
 }
