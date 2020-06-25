@@ -19,7 +19,7 @@ body {
     padding: 0em;
 }
 
-/* h1= 72 h2=36 h3=24 */
+/* MAIN */
 
 h1 {
     font-size: 94px;
@@ -44,7 +44,7 @@ h2 {
 h3 {
     font-size: 22px;
     line-height: 1em;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: -0.02em;
 
     margin: 0;
@@ -54,17 +54,37 @@ h3 {
 p {
     font-size: 16px;
     line-height: 1.2em;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: -0.02em;
 
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
+    h1 {
+        font-size: 44px;
+        margin-top: 0;     
+    }
+}
+
+@media (max-width: 414px) {
+    h2 {
+        font-size: 22px;
+        margin-top: 0;     
+    }
+}
+
+@media (max-width: 414px) {
     h3 {
+        font-size: 22px;
+        margin-top: 0;     
+    }
+}
+
+@media (max-width: 414px) {
+    p {
         font-size: 12px;
-        margin-top: 2.5em;
     }
 }
 
@@ -101,7 +121,7 @@ p {
     
     font-size: 22px;
     line-height: 1.15em;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: -0.02em;
     list-style: none;
 
@@ -115,14 +135,14 @@ p {
     column-gap: 12px;
 }
 
-@media (max-width: 768px) {
-    .nav-container {
-        font-size: 16px;
-    }
-}
-
 .nav-item1 {
     grid-column: span 2;
+}
+
+@media (max-width: 414px) {
+    .nav-item1 {
+        grid-column: 1 / 10;
+    }
 }
 
 .nav-item2 {
@@ -154,22 +174,30 @@ a:visited {
     grid-column: span 11;
 }
 
+@media (max-width: 414px) {
+    #main-container {
+        grid-column: span 14;
+        margin-top: 0;    
+    }
+}
+
 .homepage-subtitle-container {
     width: 50%;
     margin-top: 24px;
     margin-bottom: 64px;
 }
 
-@media (max-width: 768px) {
-    h2 {
-        font-size: 16px;
-        margin-top: 2.5em;
+@media (max-width: 414px) {
+    .homepage-subtitle-container {
+        width: 100%;
+        margin-top: 6px;
+        margin-bottom: 12px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .homepage-subtitle-container {
-        width: 80%;
+        display: none;
     }
 }
 
@@ -202,6 +230,13 @@ a:visited {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     column-gap: 12px;
+}
+
+@media (max-width: 414px) {
+    .main-homepage-project-description {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
 }
 
 .project-description1 {
@@ -268,6 +303,13 @@ a:visited {
 
 .cv {
     margin-top: 48px;
+}
+
+.services {
+    margin-top: 48px;
+
+    display: flex;
+    flex-flow: column wrap;
 }
 
 /* WORKS */
