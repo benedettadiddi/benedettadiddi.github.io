@@ -233,6 +233,20 @@ a:visited {
 }
 
 @media (max-width: 414px) {
+    .hide {
+        display: none;   
+
+    }
+}
+
+@media (max-width: 414px) {
+    h2 {
+        font-size: 22px;
+        margin-top: 0;     
+    }
+}
+
+@media (max-width: 414px) {
     .main-homepage-project-description {
         margin-top: 12px;
         margin-bottom: 12px;
