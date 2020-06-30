@@ -351,6 +351,12 @@ a:visited {
     margin-left: 54px;
 }
 
+@media (max-width: 414px) {
+    .project-title {
+        margin-left: 0;
+    }
+}
+
 .project-description-container {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
@@ -360,9 +366,29 @@ a:visited {
     margin-bottom: 24px;
 }
 
+@media (max-width: 414px) {
+    .project-description-container {
+        margin-bottom: 12px;
+    }
+}
+
 .project-info {
     grid-column: 4 / 12;
     grid-row: 3 / 4;
+}
+
+@media (max-width: 414px) {
+    .project-info {
+        grid-column: 1 / 15;
+        grid-row: 3 / 4;
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 414px) {
+    .project-icon {
+        width: 24px;
+    }
 }
 
 .project-icon {
@@ -377,6 +403,13 @@ a:visited {
     grid-column: 4 / 12;
     margin-top: 24px;
     margin-bottom: 200px;
+}
+
+@media (max-width: 414px) {
+    .project-info2 {
+        grid-column: 1 / 15;
+        margin-top: 12px;
+    }
 }
 
 /* MAGIS */
