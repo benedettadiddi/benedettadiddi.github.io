@@ -349,11 +349,22 @@ a:visited {
     margin-top: 48px;
 }
 
-.services {
-    margin-top: 48px;
+.container-services {
+    margin-top: 36px;
+}
 
+.services {
     display: flex;
     flex-flow: column wrap;
+}
+
+.services-item-title {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.services-item {
+    margin-left: 12px;
 }
 
 /* WORKS */
